@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+
+app/__pycache__/
+
+app/utils/__pycache__/
+# Virtual Environment
+venv/
+env/
+
+# Flask
+instance/
+*.db
+*.sqlite
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test and coverage files
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# Logs
+*.log
+
+
+model/saved_model/
+
+model/__pycache__/
+model/best_ncf_model.keras
+model/interaction_matrix.npz
+
