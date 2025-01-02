@@ -104,7 +104,11 @@ Assurez-vous d'avoir installé les outils suivants avant de commencer :
    ```
    Modifiez le fichier `.env` selon vos besoins.
 
-6. **Lancez le serveur Flask :**
+6. **Fonctionnement model :**
+
+ Ajouter le best_model.keras et interaction_matrix.npz (envoyé dans le drive) dans le dossier model
+
+7. **Lancez le serveur Flask :**
    ```bash
    python app.py
    ```
